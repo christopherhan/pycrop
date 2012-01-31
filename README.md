@@ -1,7 +1,7 @@
-About
+    About
 =====================
 Modifies reddit's image cropping algorithm to accept an image of any dimension 
-to produce a square thumbnail.
+to produce a square thumbnail. This is sometimes referred to as smart-cropping.
 
 Produces an NxN-sized thumbnail of an image without distortion. For example,
 a 100px x 50px image can be converted to a 25px x 25px thumbnail. First, the
@@ -21,7 +21,7 @@ Usage
     from PIL import Image
     
     im = Image.open(path_to_file)
-    image = pc.prepare_image(im, (25,25))
+    image = pc.prepare_image(im, (200,200))
 	image.save(new_filename, 'JPEG')
 	
 Functions

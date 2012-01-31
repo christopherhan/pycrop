@@ -1,4 +1,5 @@
 import math
+from PIL import Image
 
 def prepare_image(image, thumbnail_size):
     x,y = image.size
