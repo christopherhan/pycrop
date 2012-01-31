@@ -1,4 +1,4 @@
-    About
+About
 =====================
 Modifies reddit's image cropping algorithm to accept an image of any dimension 
 to produce a square thumbnail. This is sometimes referred to as smart-cropping.
