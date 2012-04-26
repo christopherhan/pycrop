@@ -17,8 +17,8 @@ http://www.pythonware.com/products/pil/
 
 Usage
 =====================
-    from pycrop import pycrop as pc
     from PIL import Image
+    import pycrop as pc
     
     im = Image.open(path_to_file)
     image = pc.prepare_image(im, (200,200))
